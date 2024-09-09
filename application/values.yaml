@@ -54,7 +54,7 @@ ingress:
         - path: /
           pathType: ImplementationSpecific
   tls:
-   - secretName: ext-demo-tls
+   - secretName: ext-demo-example-tls
      hosts:
       - ext-demo.nasi181.com
 
